@@ -1,0 +1,11 @@
+h1, h2 {
+text-align: center;
+color: blue;
+}
+
+h3 {
+    text-align: center;
+}
+.jumbotron {
+    background-color: gainsboro;
+}
