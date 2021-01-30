@@ -13,7 +13,8 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top justify-content-center">
+        <!-- Here an image / Logo could be added-->
         <a class="navbar-brand" href="#">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -76,6 +77,7 @@
       </div>
   </div>
 </div>
+    </div>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ullam illo quis magnam, 
         cumque quisquam numquam repellendus quia sapiente dolor iusto aliquam dignissimos 
@@ -99,22 +101,52 @@
             reiciendis aliquam neque minima, eius dicta. Corporis, cum nemo. Eligendi!
         </p>
     </div>
+<!--
+to try a different display -commented out
 
-        <div class="container">
-            <div class="row">
+<div class="container">
+            <div id="skirts">
                 <div class="col-md-4">
-            <img src="/images/sommerkleidburda_türkis.jpg" alt="Türkises Sommerkleid" class="img-fluid">
+            <img src="/images/sommerkleidburda_türkis.jpg" class="img-thumbnail alt="Türkises Sommerkleid">
                 </div>
             
                 <div class="col-md-4">
-                    <img src="/images/sommerrock_rot.jpg" alt="roter Sommerrock" class="img-fluid">
+                    <img src="/images/sommerrock_rot.jpg" alt="roter Sommerrock" class="img-thumbnail">
                 </div>
         
                 <div class="col-md-4">
-                    <img src="/images/sommerrock_rotkenia_mit shirt.jpg" alt="Türkises Sommerkleid" class="img-fluid">
+                    <img src="/images/sommerrock_rotkenia_mit shirt.jpg" alt="Türkises Sommerkleid" class="img-thumbnail">
                 </div>
             </div>
         </div>
+
+-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="use-cover-background square" 
+                    style="background-image: url(/images/sommerkleidburda_türkis.jpg)"></div>
+                </div>
+               
+                <div class="col-md-4"> 
+                    <div class="use-cover-background square" 
+                    style="background-image: url(images/sommerrock_rot.jpg)"></div>
+                </div>
+               
+                <div class="col-md-4">
+                    <div class="use-cover-background square" 
+                style="background-image: url(/images/sommerrock_rotkenia_mit\ shirt.jpg)"></div>
+                </div>
+
+            </div>
+            
+            
+
+        </div>
+     
+                
+
+
 
         <div class="container">
             <div class="row mt-4">
@@ -212,15 +244,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="/images/topsorbetto_blauerstoffkenia_upcyclingrockjeans.jpg" alt="Top Sorbetto" class="img-fluid">
+                    <div class="image-wrapper">
+                        <img src="/images/topsorbetto_blauerstoffkenia_upcyclingrockjeans.jpg" 
+                        alt="Top Sorbetto" class="img-fluid">
+                    </div>
                 </div>
             
                 <div class="col-md-4">
-                    <img src="/images/colorblockshirt_upcyclerock.jpg" alt="Colorblock Shirt" class="img-fluid">
+                    <div class="image-wrapper">
+                        <img src="/images/colorblockshirt_upcyclerock.jpg" alt="Colorblock Shirt" 
+                        class="img-fluid">
+                    </div>
                 </div>
         
                 <div class="col-md-4">
-                    <img src="/images/RockFinleysFriedaShirtLuiza_türkis.jpg" alt="Rock und Shirt-türkis" class="img-fluid">
+                    <div class="image-wrapper">
+                        <img src="/images/RockFinleysFriedaShirtLuiza_türkis.jpg" 
+                        alt="Rock und Shirt-türkis" class="img-fluid">
+                    </div> 
                 </div>
             </div>
         </div>
@@ -273,15 +314,22 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4">
-            <img src="/images/Bauchtasche Funkelfaden.jpg" alt="Bauchtasche" class="img-fluid">
+            <div class="image-wrapper">
+                <img src="/images/Bauchtasche Funkelfaden.jpg" alt="Bauchtasche" class="img-fluid">
+            </div>
+            
         </div>
     
         <div class="col-md-4">
-            <img src="/images/Kissenbezüge.jpg" alt="Kissenbezüge" class="img-fluid">
+            <div class="image-wrapper">
+                <img src="/images/Kissenbezüge.jpg" alt="Kissenbezüge" class="img-fluid">
+            </div>
         </div>
 
         <div class="col-md-4">
+            <div class="image-wrapper">
             <img src="/images/Windeltasche.jpg" alt="Windeltasche" class="img-fluid">
+        </div>
         </div>
     </div>
 </div>
