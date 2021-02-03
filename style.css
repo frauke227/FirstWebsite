@@ -24,8 +24,8 @@ h3 {
 footer {
     background-color: rgb(46, 46, 114);
     color: white;
-    text-align: center;
     padding: 10px;
+    text-align: center;
 }
 
 p {
@@ -34,6 +34,20 @@ p {
     text-align: justify;
 }
 
+.skirts {
+  background-color: aquamarine;
+}
+
+.trousers {
+  background-color: azure;
+}
+.tops {
+  background-color: darkseagreen;
+}
+.accessoires {
+  background-color: lightskyblue;
+}
+/*
 .image-wrapper {
     width: 300px;
     height: 300px;
@@ -61,6 +75,7 @@ p {
   }
 
 /* footer */
+/*
 .footer{
   width: 100%;
   min-height: 120px;
@@ -88,3 +103,4 @@ color: white;
 .footer p {
   color: white;
 }
+*/
