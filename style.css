@@ -1,8 +1,10 @@
-
+.navbar {
+  font-family: "Architects Daughter";
+}
 
 h1 {
 text-align: center;
-color: rgb(46, 46, 114);
+color: paleturquoise;
 font-family: "Architects Daughter";
 font-weight: bold;
 font-size: 40px;
@@ -10,7 +12,7 @@ font-size: 40px;
 
 h2 {
     text-align: center;
-    color: rgb(46, 46, 114);
+    color: white;
     font-family: "Architects Daughter";
     }
 h3, h6 {
@@ -19,7 +21,11 @@ h3, h6 {
     font-weight: bold;
 }
 .jumbotron {
-    background-color: rgb(104, 170, 167);
+    background-image: url(images/clothes.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
 }
 
 footer {
@@ -34,19 +40,35 @@ p {
     padding: 15px;
     text-align: justify;
 }
-
+/*
+body {
+  background-image: url(images/clothes.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} */
+.clothes {
+  color: white;
+  background-color: darkgrey;
+  opacity: 80%;
+  margin-top: 10px;
+}
 .skirts {
-  background-color: aquamarine;
+  background-color: paleturquoise;
+  opacity: 95%;
 }
 
 .trousers {
-  background-color: azure;
+  background-color: paleturquoise;
+  opacity: 95%
 }
 .tops {
-  background-color: rgb(187, 206, 224);
+  background-color: paleturquoise;
+  opacity: 95%;
 }
 .accessoires {
-  background-color: lightskyblue;
+  background-color:  paleturquoise;
+  opacity: 95%
 }
 /*
 .image-wrapper {
@@ -76,23 +98,23 @@ p {
   }
 
 /* footer */
-/*
+
 .footer{
   width: 100%;
   min-height: 120px;
-  background-color: rgb(46, 46, 114);
+  background-color: black;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 30px;
 }
 .footerFrame{
   width: 50%;
   min-height: 40px;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 90px;
+  margin-top: 20px;
 }
 .footerFrame .footerLinks a {
 text-decoration: none;
@@ -104,4 +126,3 @@ color: white;
 .footer p {
   color: white;
 }
-*/
