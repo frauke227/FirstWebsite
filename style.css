@@ -70,6 +70,177 @@ body {
   background-color:  paleturquoise;
   opacity: 95%
 }
+/* Stlying of the Bootstrap Carousel */
+/*Indicators*/
+.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+/*Prev./ Next Buttons*/
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 10px;
+  font-size: small;
+  color: grey;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100%;
+}
+
+.image img{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+/*
+.img-thumbnail {
+  width: 100vw;
+  height: 15vw;
+  object-fit: scale-down;
+  align:
+}
+*/
+
+/*//Styling of other SLideshow//
+// Slideshow Container //
+.slideshow-container {
+  
+  position:relative;
+  margin: auto;
+}
+//Hide the images by default//
+.mySlides {
+  display: none;
+} 
+// Next & previous buttons //
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+// Position the "next button" to the right //
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+// On hover, add a black background color with a little bit see-through //
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+// The dots/bullets/indicators //
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+// Fading animation //
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+*/
+/*
+.slider {
+  width: auto;
+  height: 300px;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.image-container {
+  width: 300px;
+  height: 300px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+}
+
+.image-container img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+.slide {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+#FriedaSlide-1:target ~.image-container {
+  left: 0px;
+}
+
+#FriedaSlide-2:target ~.image-container {
+  left: auto;
+}
+
+#FriedaSlide-2:target ~.image-container {
+  left: auto;
+}
+
+.buttons {
+  position: relative;
+  top: -20px;
+}
+.buttons a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: lightgreen;
+
+  .square {
+    margin: 10px 10px;
+    width: 250px;
+    height: 250px;
+  }
 /*
 .image-wrapper {
     width: 300px;
